@@ -7,7 +7,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use App\User;
 
-class TaskController extends BaseController
+class TaskController extends Controller
 {
     public function prime(){
         $num=1;
@@ -26,4 +26,12 @@ class TaskController extends BaseController
         
 
     }
+    
+}
+
+function isPrime($n){
+    for($x=2; $x<$n; $x++) {
+        if($n % $x ==0) { return;}
+    } 
+    return $n;
 }

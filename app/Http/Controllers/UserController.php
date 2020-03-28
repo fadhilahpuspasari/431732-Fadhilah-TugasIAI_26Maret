@@ -7,7 +7,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use App\User;
 
-class UserController extends BaseController
+class UserController extends Controller
 {
     /**
      * Create a new controller instance.

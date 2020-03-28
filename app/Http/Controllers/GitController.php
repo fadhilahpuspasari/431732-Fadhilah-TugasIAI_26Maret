@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Git;
 
-class GitController extends BaseController
+class GitController extends Controller
 {
     /**
      * Create a new controller instance.
